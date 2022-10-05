@@ -8,5 +8,5 @@ df = pd.read_csv(path)
 print(pd.options.display.max_rows)
 #print(df.info())
 #print(df.head())
-hsgt80 = df[df['50'] > '50']
+hsgt80 = df[df['50'] > '40']
 print(hsgt80)
